@@ -1,0 +1,27 @@
+store:
+  sam_name: "Sam's Club Warren"
+
+items:
+  - "Rotisserie chicken"
+  - "Ground beef 80/20"
+  - "Chicken breast"
+  - "Pork shoulder/butt"
+  - "Ribeye steak"
+
+competitors:
+  - "Walmart Cortland"
+  - "Meijer Warren"
+  - "ALDI Warren"
+  - "Giant Eagle Elm Rd"
+
+report:
+  top_n: 5
+  title: "Meat & Rotisserie Competitor Snapshot"
+  include_chart: true
+
+files:
+  input_csv: "prices.csv"
+  output_csv: "report_latest.csv"
+  summary_txt: "manager_summary.txt"
+  output_pdf: "report.pdf"
+  chart_png: "chart.png"
